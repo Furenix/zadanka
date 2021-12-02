@@ -1,0 +1,6 @@
+print("podaj wymiary stołu w centymetrach")
+def wymiary_stołu(długość, szerokość):
+    if (długość==0 or szerokość==0):
+        return
+    else:
+        return długość/70, szerokość/70
